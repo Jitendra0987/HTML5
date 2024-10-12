@@ -1,0 +1,65 @@
+.raju{
+    background-color: aqua;
+    padding: 40px;
+}
+
+.raju:hover{
+    background-color: chartreuse;
+    color: aqua;
+}
+
+.raju button:hover{
+    background-color: beige;
+    padding: 12px;
+    border: none;
+    color: red;
+    cursor: pointer;
+
+
+}
+
+
+
+
+
+
+.goon{background-color: brown;
+    padding: 40px;
+
+}
+
+.goon:hover{
+
+    background-color: azure;
+    color: aqua;
+}
+
+.goon button:hover{
+    background-color: red;
+    padding: 12px;
+    border-top: none;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
+p:nth-child(even){
+    background-color: aqua;
+}
+
+p::first-letter{
+    font-size: 40px;
+    color: blue;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+h1::after{
+    content:"hi";
+    background-color: yellow;
+}
+
+

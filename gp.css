@@ -1,0 +1,39 @@
+.main{
+ display: grid;
+ height: 100vh;
+ grid-template-columns: auto auto auto;
+ grid-template-rows: 200px 250px 150px;
+}
+
+.ch{
+    background-color: blueviolet;
+    border: 5px solid;
+}
+
+.ch1{
+    background-color: red;
+    border: 5px solid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+
+.ch2{
+
+    background-color: yellow;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+}
+
+.ch5{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.ch6{
+    background-color: chocolate;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

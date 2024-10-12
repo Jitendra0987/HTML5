@@ -1,0 +1,22 @@
+.parent{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.ch{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border: 2px solid;
+
+}
+
+.ch1{
+    background-color: yellow;
+}
+.ch2{
+
+    background-color: black;
+}

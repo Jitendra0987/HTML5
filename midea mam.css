@@ -1,0 +1,37 @@
+body{
+    background-color: yellow;
+
+}
+#heading{
+    background-color: aqua;
+    color: blue;
+    font-size: 60px;
+}
+/*tablet view*/
+@media screen and (max-width: 768px){
+body{
+    background-color: red;
+
+}
+#heading{
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+}
+
+
+/*mobile view*/
+@media  screen and (max-width: 420px) {
+  body{
+    background-color: blueviolet;
+  }  
+
+  #heading{
+    background-color: green;
+    color: yellow;
+    font-size: 25px;
+  }
+} {
+    
+}

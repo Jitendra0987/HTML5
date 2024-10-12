@@ -1,0 +1,15 @@
+.dharmu{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: deeppink;
+    position: sticky;
+    top: 0;
+}
+
+.dharmu ul{
+display: flex;
+gap: 40px;
+list-style: none;
+}

@@ -1,0 +1,17 @@
+.main{
+    background-color: pink;
+    padding: 40px;
+}
+
+.main:hover{
+    background-color: aqua;
+    color: blueviolet;
+}
+
+.main button:hover{
+    background-color: blue;
+    padding: 12px;
+    border: none;
+    color: aqua;
+    cursor: pointer;
+}

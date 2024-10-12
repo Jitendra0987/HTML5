@@ -1,0 +1,25 @@
+.list{
+
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+
+.ch{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: 2px solid;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.parent{
+    display: flex;
+    background-color: lightcoral;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,46 @@
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+
+}
+
+.navbar label{
+    display: none;
+
+}
+#check{
+    display: none;
+
+}
+
+#check:checked~.navbar ul{
+    display: block;
+}
+
+@media screen and (max-width:750px) {
+    .navbar{
+        height: 70px;
+    }
+
+    .navbar label{
+        display: block;
+ 
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        display: none;
+    }
+    
+}

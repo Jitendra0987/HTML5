@@ -1,0 +1,32 @@
+
+
+
+
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    animation-name: colorchange;
+
+
+
+}
+
+button{
+    background-color:white;
+    box-shadow: 4px 3px rgb(61, 156, 17);
+    border-radius: 30px;
+    border: 9px solid blue;
+    margin-top: 115px;
+    margin-left: 80px;
+    font-size: 16px;
+
+}@keyframes colorchange{
+
+    0%{background-color:red ;}
+    10%{background-color: yellow;}
+    20%{background-color: green;}
+    30%{background-color:blue ;}
+    40%{background-color: red;}
+
+}
